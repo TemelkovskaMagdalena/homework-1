@@ -1,0 +1,75 @@
+.pt20 {
+  padding-top: 20px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.skills label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #636363;
+}
+.skills .progress {
+  height: 8px;
+  background-color: #e8e7e7a1;
+}
+.skills .tech.html5 .progress-bar {
+  background-color: rgba(255, 97, 38, 0.75);
+}
+
+.skills .tech.css3 .progress-bar {
+  background-color: rgba(145, 145, 255, 1);
+}
+
+.skills .tech.less .progress-bar {
+  background-color: cornflowerblue;
+}
+
+.skills .tech.bootstrap .progress-bar {
+  background-color: rgba(128, 0, 128, 0.56);
+}
+
+.skills .tech.xml .progress-bar {
+  background-color: green;
+}
+.skills .tech.javascript .progress-bar {
+  background-color: #f3cf34;
+}
+.angular .progress-bar {
+  background-color: rgba(255, 0, 0, 0.73);
+}
+
+.skills .tech.react .progress-bar {
+  background-color: royalblue;
+}
+
+.skills .tech.git .progress-bar {
+  background-color: slateblue;
+}
+.projects {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projects li {
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: #f6d8ed;
+  color: #d63cbc;
+  border-radius: 5px;
+  margin-right: 10px;
+  line-height: 16px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  hr {
+    margin-top: 40px;
+  }
+
+  .working-experience-heading {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+}

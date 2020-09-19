@@ -1,0 +1,45 @@
+.basic-info-wrapper .cv-box{
+    padding: 0 20px 0 0 ;
+}
+.basic-info-line {
+  clear: both;
+  display: flex;
+}
+.basic-info-line label,
+.basic-info-line p {
+  display: inline-block;
+}
+.basic-info-line label {
+  width: 140px;
+}
+.basic-info-line p a {
+  color: #333;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .cv-box .basic-info h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .cv-box {
+    padding: 25px;
+  }
+  .basic-info-wrapper .cv-box {
+    padding: 0 20px 10px 0px;
+  }
+  .cv-box .basic-info h2 {
+    font-size: 18px;
+  }
+  .basic-info-line label {
+    width: 30%;
+  }
+  .basic-info-line p {
+    width: 70%;
+    white-space: normal;
+    word-break: break-word;
+  }
+}
