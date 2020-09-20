@@ -1,0 +1,18 @@
+.cv-main-info {
+    position: relative;
+    font-size: 16px;
+    color: white;
+    padding: 50px 0;
+    background-color: #e8e7e7;
+  }
+  .cv-main-info:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 350px;
+    background-color: #03c8ef;
+  }

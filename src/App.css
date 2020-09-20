@@ -5,23 +5,76 @@
   }
 }
 /*bootstrap classes change end*/
+html {
+  margin: 0;
+  padding: 0;
+}
 body {
   position: relative;
   font-size: 16px;
   color: white;
-  padding: 50px 0;
+  padding: 0px 0;
   background-color: #e8e7e7;
+  margin: 0;
 }
-body:before {
-  content: "";
+.first-page {
+  height: 100vh;
+  background-color: #03c8efb0;
+  background-image: url('assets/pc.jpg');
+  background-size:cover ;
+}
+.first-page:before {
+  content: '';
   display: block;
   position: absolute;
-  top: 0;
   left: 0;
   right: 0;
-  height: 350px;
+  top: 0;
+  bottom: 0;
+  background-color: #676767b0;
+  z-index: 0;
+}
+.first-page .container {
+  position: relative;
+  z-index: 4;
+}
+.jumbotron h1 {
+  font-size: 77px;
+}
+.jumbotron {
+  background: transparent;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  padding: 150px 0;
+}
+.jumbotron p {
+  font-size: 17px;
+  margin: 30px 0 35px;
+}
+.jumbotron .btn{
+    border-radius: 0;
+    margin-right: 30px;
+    padding: 10px 40px;
+ 
+
+}
+.jumbotron a{
+  color:white;
+}
+.jumbotron .btn:focus{
+  outline:none;
+}
+.jumbotron .btn:hover{
+  color:white;
+}
+.jumbotron .btn:nth-of-type(1){
+  color: white;
   background-color: #03c8ef;
 }
+.jumbotron .btn:nth-of-type(2){
+  background: rgba(33, 33 ,33 ,0.37);
+}
+
 img {
   max-width: 100%;
 }
@@ -103,12 +156,12 @@ h1 {
     margin-left: 0;
     margin-right: 20px;
   }
-  .dark-heading{
+  .dark-heading {
     text-align: left;
     font-size: 25px;
     margin-top: 50px;
   }
   h3 {
     margin: 5px 0 20px;
-}
+  }
 }

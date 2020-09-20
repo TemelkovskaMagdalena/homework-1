@@ -1,5 +1,5 @@
 import React from 'react';
-import picture from '../../../src/assets/cv-template-img.jpg';
+import picture from '../../../../../src/assets/cv-template-img.jpg';
 import { Row, Col } from 'reactstrap';
 
 import './BasicInfo.css';
