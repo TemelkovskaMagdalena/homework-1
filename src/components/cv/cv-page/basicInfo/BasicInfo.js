@@ -19,7 +19,7 @@ const BasicInfo = () => (
             <div className="basic-info-line"><label>Address</label> <p><a href="https://goo.gl/maps/VAyxsMQukbrvCebW8">Isaija Mazhovski, no.24</a></p></div>
             <div className="basic-info-line"><label>Email</label> <p><a href="mailto:'magdalenatemelkovska@gmail.com'">magdalenatemelkovska@gmail.com</a></p></div>
             <div className="basic-info-line"><label>Phone</label> <p><a href="tel:075381089">075381089</a></p></div>
-            <div className="basic-info-line"><label>Date of Birth</label> <p>10.02.1994</p></div>
+            
 
           </div>
 

@@ -29,9 +29,10 @@ const Skills = () => (
           <h3 className="working-experience-heading">Working Experience</h3>
           <span className="position">Font-End Developer - <span className="date">10.03.2016-present</span></span>
           <br />
-          
+
 
           <p className="pt10">I'm working as a <b>Front-end Developer</b> over 4 years.</p>
+          <p>This is my first working experience.</p>
           <p className="pt10">Types of projects:</p>
           <ul className="projects ">
             <li>webshops</li>
